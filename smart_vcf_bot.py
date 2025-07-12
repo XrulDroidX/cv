@@ -296,7 +296,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 def main() -> None:
     """Menjalankan bot."""
-    application = Application.builder().token("TOKEN_BOT_ANDA").build()
+    application = Application.builder().token("7223026781:AAG8oBE7BbM6iVncnhDrFvQb0RJiKkE0yC0").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
